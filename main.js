@@ -222,6 +222,10 @@ var controller = (function(budgetCtrl, UICtrl) {
     }
   };
 
+  var ctrlDeleteItem = function(event) {
+    console.log(event.target);
+  };
+
   return {
     init: function() {
       console.log('Application has started.');
